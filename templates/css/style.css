@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face
+{
+    font-family: 'mighty_brush';
+    src: url('mighty_brush_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: rgb(31, 14, 14);
+    font-family: 'mighty_brush';
+    color: #e1fa03;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: chartreuse;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+
+}
+
+h1 {
+    
+    font-size: 3.5em;
+    font-weight: normal;
+    margin: 0 0 0 355px;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+    height: 100px;
+    font-size: 1.5em;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.3em;
+    color: #e1fa03;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #62009b;
+    border-bottom: 3px solid #62009b;
+}
+
+
+
+/* tableaux */
+
+table {
+    margin-top: 25%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-collapse: separate;
+    border-spacing: 40px 30px;
+}
+tbody{
+    border: 5px solid orangered;
+    border-radius: 20px 20px 20px 20px;
+}
+
+td {
+    font-size: 2em;
+}
+
+th {
+    font-size: 1.5em;
+}
+/* formulaire*/
+
+form {
+    
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 10%;
+    padding: 1em;
+    border: 5px solid orangered;
+    border-radius: 2em;
+  }
+  
+div + div {
+    margin-top: 1em;
+  }
+  
+label {
+    
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+input, textarea {
+    
+    font: 1em sans-serif;
+  
+    
+    width: 300px;
+  
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+  
+   
+    border: 1px solid #999;
+  }
+  
+input:focus, textarea:focus {
+   
+    border-color: #000;
+  }
+  
+textarea {
+    
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+  }
+  
+.button {
+    
+    padding-left: 90px; 
+  }
+  
+button {
+    
+    margin-left: .5em;
+  }
